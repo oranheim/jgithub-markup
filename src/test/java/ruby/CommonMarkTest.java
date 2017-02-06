@@ -17,6 +17,7 @@ import java.util.List;
  */
 public class CommonMarkTest {
 
+    // Use highlight.js to emphasize code: https://highlightjs.org/
     @Test
     public void testMe() throws Exception {
         List<Extension> extensions = Arrays.asList(TablesExtension.create());
